@@ -1,0 +1,352 @@
+/* Formatação do Site - INICIO*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #c7c7c7;
+    transition: background 0.5s linear, color 0.5s linear;
+}
+
+/* Formatação do Site - FINAL*/
+
+/* Rodapé - INICIO  */
+#rodape{
+	clear: both;
+	text-align: left;
+	padding: 10px;
+	background: rgb(46, 46, 46);
+}
+
+.texto{
+	color: white;
+	text-align: left;
+    padding-left: 10px;
+}
+/* Rodapé - FINAL  */
+
+#container{
+    width: 100%;
+    height: 80px;
+    clear: both;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    float: right;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+/** SIDEBAR - INICIO */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar{
+    float: left;
+}
+
+#topo ul{
+    background: black;
+    float: right;
+    padding-top: 18px;
+    padding-right: 190px;
+}
+
+#topo ul li{
+    background: black;
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#topo ul a:hover{
+    color: rgb(2, 211, 2);
+}
+
+/** SIDEBAR - FINAL */
+
+#container1{
+    background: #1d75de;
+    color: white;
+    padding: 90px;
+    font-size: 20px;
+    padding-left: 180px;
+    height: 295px;
+}
+
+#text01{
+    font-size: 24px;
+}
+
+.texto1{
+    padding-top: 60px;
+}
+
+.link{
+    color: #fff;
+    padding-top: 30px;
+}
+
+.link a:hover{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+A {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+#termos{
+    font-size: 12px;
+    padding-top: 20px;
+}
+button{
+    background-color: rgb(26, 25, 25);
+    padding: 20px 40px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    width: 179px;
+    height: 53px;
+    box-shadow: 11px 15px 10px -20px;
+}
+
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#container2{
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    width: 0 auto;
+    height: 470px;
+    font-size: 25px;
+}
+
+#container3{
+    text-align: center;
+    padding: 40px;
+    background-color: #cecece;
+    width: 0 auto;
+    height: 800px;
+    font-size: 25px;
+}
+
+.caixa1{
+    font-size: 20px;
+    float: left;
+    padding-left: 245px;
+    padding-top: 100px;
+}
+
+.caixa2{
+    font-size: 20px;
+    float: left;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+.caixa3{
+    font-size: 20px;
+    float: left;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+.caixa4{
+    font-size: 20px;
+    float: left;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+.text-size{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#txt2{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.imgs{
+    padding-top: 12px;
+}
+
+.txt3{
+    font-size: 16px;
+    padding-left: 350px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+#container4{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+
+#container5{
+    padding-left: 160px;
+    padding-top:30px;
+}
+#container6{
+    padding-left: 457px;
+    margin-top: -620px;
+    
+}
+
+#container7{
+    padding-left: 757px;
+    margin-top: -620px;
+    
+}
+
+#container8{
+    padding-left: 1057px;
+    margin-top: -620px;
+    
+}
+
+#planos{
+    padding-left: 30px;
+    width: 250px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px ;
+} 
+
+#planos2{
+    padding-left: 30px;
+    width: 250px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+} 
+
+#planos3{
+    padding-left: 30px;
+    width: 250px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+} 
+
+#planos4{
+    padding-left: 30px;
+    width: 250px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+} 
+
+#mes{
+    color: rgb(255, 255, 255);
+   padding-right: 7px;
+    font-size: 14px;
+}
+
+
+#mes2{
+    color: rgb(46, 119, 208);
+   padding-right: 7px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 3px 7px;
+}
+
+#border2{
+    background-color: rgb(46, 119, 208);
+    border-radius: 4px;
+    width: 170px;
+   
+}
+
+.border1{
+    padding-right: 70px;
+}
+
+.border3{
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+#border4{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(46, 119, 208);
+    border-radius: 4px;
+    width: 210px;
+}
+
+#individual{
+    font-size: 25px;
+    float: left;
+    padding-top: 7px;
+}
+
+.conta1{
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 16px;
+    padding-right:30px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+    clear: both;
+    padding-top: 5px;
+}
+
+#conta2{
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 190px;
+}
+
+/*
+#circle{
+    border-radius: 20px;
+    background-color: rgb(190, 190, 190);
+*/
